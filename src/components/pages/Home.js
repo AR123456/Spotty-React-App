@@ -9,22 +9,22 @@ function Home() {
       <h4>I am a ...</h4>
       <div className="row">
         <div className="col-sm">
-          <div className="card">
-            <div className="card-body">
-              <a href="/family" className="card-link">
+          <a href="/family" className="card-link">
+            <div className="card">
+              <div className="card-body">
                 <h2 className="card-text">Caregiver/Family Member</h2>
-              </a>
+              </div>
             </div>
-          </div>
+          </a>
         </div>
         <div className="col-sm">
-          <div className="card">
-            <div className="card-body">
-              <a href="/family" className="card-link">
+          <a href="/family" className="card-link">
+            <div className="card">
+              <div className="card-body">
                 <h2 className="card-text">Patient/Resident</h2>
-              </a>
+              </div>
             </div>
-          </div>
+          </a>
         </div>
       </div>
       <div className="row spacer"></div>

@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 // import React, { Fragment } from "react";
 // import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
@@ -17,13 +17,11 @@ import Resident from "./components/pages/Resident";
 // import setAuthToken from "./utils/setAuthToken";
 import "./App.css";
 const App = () => (
-  <Fragment>
-    <Router>
-      <Route exact path="/" component={Home} />
-      <Route exact path="/family" component={Family} />
-      <Route exact path="/resident" component={Resident} />
-    </Router>
-  </Fragment>
+  <Router>
+    <Route exact path="/" component={Home} />
+    <Route exact path="/family" component={Family} />
+    <Route exact path="/resident" component={Resident} />
+  </Router>
 
   // <AuthState>
   //   <ContactState>

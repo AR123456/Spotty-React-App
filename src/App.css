@@ -13,6 +13,14 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.famJumbo {
+  background-image: url("../src/components/images/prettylake.jpg");
+  background-size: 80vw;
+  height: 20vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .card {
   background-color: #006aff;
   height: 15vh;
@@ -25,4 +33,13 @@
 }
 .spacer {
   height: 15vh;
+}
+.family {
+  /* height: 10vh; */
+  color: black;
+  padding: 10% 0;
+  border-radius: 10%;
+  font-size: 30px;
+  font-weight: bold;
+  /* padding: 2vh; */
 }

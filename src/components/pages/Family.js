@@ -2,7 +2,79 @@
 import React from "react";
 
 function Family() {
-  return <div>Family page</div>;
+  return (
+    <div className="container-fluid">
+      <div className="jumbotron famJumbo"></div>
+      <div className="row">
+        <div
+          className="col-sm"
+          style={{
+            height: "15vh",
+            borderStyle: "solid",
+            borderWidth: "10px",
+            borderColor: "black",
+            marginLeft: "10px",
+            marginRight: "10px",
+          }}
+        >
+          {/* <div className="card">
+            <div className="card-body">
+              <a href="/family" className="card-link">
+                <h2 className="card-text">Caregiver/Family Member</h2>
+              </a>
+            </div>
+          </div> */}
+        </div>
+        <div
+          className="col-sm"
+          style={{
+            borderStyle: "solid",
+            borderWidth: "10px",
+            borderColor: "black",
+          }}
+        >
+          <a class="btn btn-primary btn-block family" href="#" role="button">
+            Send a Message
+          </a>
+          <a class="btn btn-primary btn-block family" href="#" role="button">
+            Upload a Photo
+          </a>
+          <a class="btn btn-primary btn-block family" href="#" role="button">
+            Add a Playlist
+          </a>
+          <a class="btn btn-primary btn-block family" href="#" role="button">
+            Alz Connected
+          </a>
+          <a class="btn btn-primary btn-block family" href="#" role="button">
+            Cargiver Resouces
+          </a>
+          <a class="btn btn-primary btn-block family" href="#" role="button">
+            Patient Journal
+          </a>
+        </div>
+        <div
+          className="col-sm"
+          style={{
+            height: "15vh",
+            borderStyle: "solid",
+            borderWidth: "10px",
+            borderColor: "black",
+            marginLeft: "10px",
+            marginRight: "10px",
+          }}
+        >
+          {/* <div className="card">
+            <div className="card-body">
+              <a href="/family" className="card-link">
+                <h2 className="card-text">Patient/Resident</h2>
+              </a>
+            </div>
+          </div> */}
+        </div>
+      </div>
+      <div className="row spacer"></div>
+    </div>
+  );
 }
 
 export default Family;

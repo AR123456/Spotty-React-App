@@ -18,7 +18,7 @@ function Home() {
           </a>
         </div>
         <div className="col-sm">
-          <a href="/family" className="card-link">
+          <a href="/resident" className="card-link">
             <div className="card">
               <div className="card-body">
                 <h2 className="card-text">Patient/Resident</h2>

@@ -72,15 +72,7 @@ function Family() {
             marginLeft: "10px",
             marginRight: "10px",
           }}
-        >
-          {/* <div className="card">
-            <div className="card-body">
-              <a href="/family" className="card-link">
-                <h2 className="card-text">Patient/Resident</h2>
-              </a>
-            </div>
-          </div> */}
-        </div>
+        ></div>
       </div>
       <div className="row spacer"></div>
     </div>

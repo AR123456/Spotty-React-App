@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import Home from "./components/pages/Home";
 import Family from "./components/pages/Family";
 import Resident from "./components/pages/Resident";
+import Resources from "./components/pages/Resources";
 // import About from "./components/pages/About";
 // import Register from "./components/auth/Register";
 // import Login from "./components/auth/Login";
@@ -21,6 +22,7 @@ const App = () => (
     <Route exact path="/" component={Home} />
     <Route exact path="/family" component={Family} />
     <Route exact path="/resident" component={Resident} />
+    <Route exapt path="/resources" component={Resources} />
   </Router>
 
   // <AuthState>

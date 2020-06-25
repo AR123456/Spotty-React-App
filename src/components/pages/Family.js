@@ -1,5 +1,6 @@
 // show the family caregiver page on Alz connected and care car give resoucesr
 import React from "react";
+//TODO show the Alz Connected logo on the button
 
 function Family() {
   return (
@@ -10,9 +11,9 @@ function Family() {
           className="col-sm"
           style={{
             height: "15vh",
-            borderStyle: "solid",
+            // borderStyle: "solid",
             borderWidth: "10px",
-            borderColor: "black",
+            // borderColor: "black",
             marginLeft: "10px",
             marginRight: "10px",
           }}
@@ -28,9 +29,9 @@ function Family() {
         <div
           className="col-sm"
           style={{
-            borderStyle: "solid",
+            // borderStyle: "solid",
             borderWidth: "10px",
-            borderColor: "black",
+            // borderColor: "black",
           }}
         >
           <a class="btn btn-primary btn-block family" href="#" role="button">
@@ -42,11 +43,20 @@ function Family() {
           <a class="btn btn-primary btn-block family" href="#" role="button">
             Add a Playlist
           </a>
-          <a class="btn btn-primary btn-block family" href="#" role="button">
+          <a
+            class="btn btn-primary btn-block family"
+            href="https://www.alzconnected.org/discussion.aspx?g=topics&f=151"
+            target="_blank"
+            role="button"
+          >
             Alz Connected
           </a>
-          <a class="btn btn-primary btn-block family" href="#" role="button">
-            Cargiver Resouces
+          <a
+            class="btn btn-primary btn-block family"
+            href="/resources"
+            role="button"
+          >
+            Caregiver Resouces
           </a>
           <a class="btn btn-primary btn-block family" href="#" role="button">
             Patient Journal
@@ -56,9 +66,9 @@ function Family() {
           className="col-sm"
           style={{
             height: "15vh",
-            borderStyle: "solid",
+            // borderStyle: "solid",
             borderWidth: "10px",
-            borderColor: "black",
+            // borderColor: "black",
             marginLeft: "10px",
             marginRight: "10px",
           }}

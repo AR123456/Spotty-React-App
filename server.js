@@ -21,6 +21,7 @@ app.post("/upload", (req, res) => {
   // use the mv method on the file object(move it ), pass in the path
   // use back tickes for the double underscore dirname to get to the
   // react client folder
+  // TODO send to DB and put validation on is an image
   file.mv(`${__dirname}/client/public/uploads/${file.name}`, (err) => {
     if (err) {
       // if there is an error do this

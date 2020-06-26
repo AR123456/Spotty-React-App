@@ -37,7 +37,11 @@ function Family() {
           <a class="btn btn-primary btn-block family" href="#" role="button">
             Send a Message
           </a>
-          <a class="btn btn-primary btn-block family" href="#" role="button">
+          <a
+            class="btn btn-primary btn-block family"
+            href="/uploadPicture"
+            role="button"
+          >
             Upload a Photo
           </a>
           <a class="btn btn-primary btn-block family" href="#" role="button">

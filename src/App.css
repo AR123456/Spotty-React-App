@@ -1,56 +1,112 @@
-/* Global Styles  */
-.container-fluid {
-  background-color: #ebebeb;
-  border-style: solid;
-  border-width: 20px;
-  border-color: #ba00ff;
+.App {
+  text-align: center;
 }
-.jumbotron {
-  background-image: url("../src/components/images/nurseandlady.jpeg");
-  background-size: 80vw;
-  height: 50vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
 }
-.famJumbo {
-  background-image: url("../src/components/images/prettylake.jpg");
-  background-size: 80vw;
-  height: 20vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.card {
-  background-color: #006aff;
-  height: 15vh;
-  margin-bottom: 20px;
-  border-radius: 10%;
-}
-.card-text {
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
   color: white;
-  text-align: center;
 }
-.spacer {
-  height: 15vh;
+
+.App-link {
+  color: #61dafb;
 }
-.family {
-  /* height: 10vh; */
-  color: black;
-  padding: 10% 0;
-  border-radius: 10%;
-  font-size: 30px;
-  font-weight: bold;
-  /* padding: 2vh; */
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
-h1 {
-  text-align: center;
-  color: #ee53a5;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-.resident {
-  margin-top: 40px;
-  margin-bottom: 40px;
+
+html, body {
+  height: 100%;
 }
-i {
-  font-size: 200px;
+
+body {
+  background-color: #333;
+  color: #eee;
+  font-family: Helvetica, Arial;
+  font-size: 3vmin;
+}
+
+.hidden {
+  display: none;
+}
+
+/** Buttons **/
+
+.btn {
+  background-color: transparent;
+  border-radius: 2em;
+  border: 0.2em solid #1ecd97;
+  color: #1ecd97;
+  cursor: pointer;
+  font-size: 3vmin;
+  padding: 0.7em 1.5em;
+  text-transform: uppercase;
+  transition: all 0.25s ease;
+}
+
+.btn:hover {
+  background: #1ecd97;
+  color: #333;
+}
+
+.btn--login {
+  margin: 0 auto;
+}
+
+/** Background **/
+
+.background {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-size: cover;
+  background-position: center center;
+  filter: blur(8em) opacity(0.6);
+  position: absolute;
+}
+
+.main-wrapper {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  margin: 0 auto;
+  justify-content: center;
+  position: relative;
+  width: 80%;
+  z-index: 1;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+.main-container {
+  flex: 1;
 }

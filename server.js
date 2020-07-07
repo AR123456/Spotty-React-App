@@ -8,14 +8,12 @@ connectDB();
 //init Middleware
 app.use(express.json({ extended: false }));
 
-app.get("/", (req, res) =>
-  res.json({ msg: " Welcome to the contact Keeper API" })
-);
+// app.get("/", (req, res) => res.json({ msg: " Welcome to the playlist API" }));
 
 //Define Routes
 app.use("/api/users", require("./routes/users"));
 app.use("/api/auth", require("./routes/auth"));
-app.use("/api/contacts", require("./routes/contacts"));
+app.use("/api/playlists", require("./routes/playlists"));
 
 // server set up
 const PORT = process.env.PORT || 5000;

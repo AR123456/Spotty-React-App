@@ -1,13 +1,14 @@
-export const GET_CONTACTS = "GET_CONTACTS";
-export const ADD_CONTACT = "ADD_CONTACT";
-export const DELETE_CONTACT = "DELETE_CONTACT";
+// all the types used in any conttext
+export const GET_PLAYLISTS = "GET_PLAYLISTS";
+export const ADD_PLAYLIST = "ADD_PLAYLIST";
+export const DELETE_PLAYLIST = "DELETE_PLAYLIST";
 export const SET_CURRENT = "SET_CURRENT";
 export const CLEAR_CURRENT = "CLEAR_CURRENT";
-export const UPDATE_CONTACT = "UPDATE_CONTACT";
-export const FILTER_CONTACTS = "FILTER_CONTACTS";
-export const CLEAR_CONTACTS = "CLEAR_CONTACTS";
+export const UPDATE_PLAYLIST = "UPDATE_PLAYLIST";
+export const FILTER_PLAYLISTS = "FILTER_PLAYLISTS";
+export const CLEAR_PLAYLISTS = "CLEAR_PLAYLISTS";
 export const CLEAR_FILTER = "CLEAR_FILTER";
-export const CONTACT_ERROR = "CONTACT_ERROR";
+export const PLAYLIST_ERROR = "CONTACT_ERROR";
 export const SET_ALERT = "SET_ALERT";
 export const REMOVE_ALERT = "REMOVE_ALERT";
 export const REGISTER_SUCCESS = "REGISTER_SUCCESS";

@@ -1,1 +1,1 @@
-# react-spotify-playlist-sharing
+# react-playlist-keeper
